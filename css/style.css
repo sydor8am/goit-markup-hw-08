@@ -1,0 +1,22 @@
+/* fontcolor main  #212121;
+fontcolor accent #2196F3;
+fontcolor p #757575
+fontcolor contacts footer rgba(255, 255, 255, 0.6);
+fontcolor address  #FFFFFF;
+
+bg body #E5E5E5;
+bg footer #2F303A
+bg nav #FFFFFF;
+bg our team #F5F4FA
+*/
+:root {
+	--primary-text-color: #212121;
+	--secondary-text-color: #757575;
+	--tertiary-text-color: #ffffff;
+	--accent-color: #2196f3;
+}
+
+body {
+	color: #212121;
+	background-color: #e5e5e5;
+}
