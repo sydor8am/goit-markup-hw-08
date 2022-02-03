@@ -17,6 +17,79 @@ bg our team #F5F4FA
 }
 
 body {
-	color: #212121;
-	background-color: #e5e5e5;
+	color: var(--primary-text-color);
+}
+
+/* header */
+
+.page-nav {
+	color: var(--primary-text-color);
+}
+.link-nav:hover,
+.link-nav:focus {
+	color: var(--accent-color);
+}
+.cont-nav {
+	color: var(--secondary-text-color);
+}
+
+/* hero  */
+
+.hero {
+	color: var(--tertiary-text-color);
+	background-color: darkgray;
+}
+.btn-hero {
+	color: var(--tertiary-text-color);
+	background-color: var(--accent-color);
+}
+
+/* advantages */
+.list-adv {
+}
+.text-adv {
+	color: var(--secondary-text-color);
+}
+/* what we do */
+.title-wwd {
+}
+/* our team */
+.section-ourteam {
+	background-color: #f5f4fa;
+}
+.title-ourteam {
+}
+.list-ourteam {
+}
+.text-ourteam {
+	color: var(--secondary-text-color);
+}
+/* footer */
+.footer {
+	background-color: #2f303a;
+}
+.address {
+	color: var(--tertiary-text-color);
+}
+.links-footer {
+	color: rgba(255, 255, 255, 0.6);
+}
+/* portfolio */
+/* filter portfolio*/
+.btn-filter {
+	background-color: #f5f4fa;
+	color: var(--primary-text-color);
+}
+.btn-filter:hover,
+.btn-filter:focus {
+	background-color: var(--accent-color);
+	color: var(--tertiary-text-color);
+}
+
+/* projects portfolio */
+.subtitle-prj {
+	color: var(--primary-text-color);
+}
+.text-prj {
+	color: var(--secondary-text-color);
 }
