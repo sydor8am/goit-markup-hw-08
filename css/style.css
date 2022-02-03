@@ -18,12 +18,40 @@ bg our team #F5F4FA
 
 body {
 	color: var(--primary-text-color);
+
+	font-family: Roboto, sans-serif;
+	letter-spacing: 0.03em;
+}
+a {
+	text-decoration: none;
+}
+li {
+	list-style: none;
 }
 
 /* header */
 
 .page-nav {
 	color: var(--primary-text-color);
+
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1, 14;
+	letter-spacing: 0.02em;
+}
+.logo {
+	color: inherit;
+
+	font-family: Raleway;
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 1, 19;
+}
+.logo-web {
+	color: #2196f3;
+}
+.link-nav {
+	color: inherit;
 }
 .link-nav:hover,
 .link-nav:focus {
@@ -37,48 +65,96 @@ body {
 
 .hero {
 	color: var(--tertiary-text-color);
-	background-color: darkgray;
+	background-color: rgb(39, 39, 39);
+
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1, 36;
+	text-align: center;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
 }
 .btn-hero {
 	color: var(--tertiary-text-color);
 	background-color: var(--accent-color);
+
+	font-family: Roboto;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 1, 87;
+	letter-spacing: 0.06em;
 }
 
 /* advantages */
 .list-adv {
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 1, 14;
+	text-transform: uppercase;
 }
 .text-adv {
 	color: var(--secondary-text-color);
+
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 1, 71;
+	text-transform: none;
 }
 /* what we do */
-.title-wwd {
+.title-wwd,
+.title-ourteam {
+	font-size: 36px;
+	line-height: 1, 17;
 }
 /* our team */
 .section-ourteam {
 	background-color: #f5f4fa;
 }
-.title-ourteam {
-}
 .list-ourteam {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1, 18;
 }
 .text-ourteam {
 	color: var(--secondary-text-color);
+
+	font-weight: normal;
 }
 /* footer */
 .footer {
 	background-color: #2f303a;
+	font-size: 14px;
+	line-height: 1, 71;
+}
+.logo-footer {
+	color: #ffffff;
+
+	font-family: Raleway;
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 1, 19;
 }
 .address {
 	color: var(--tertiary-text-color);
+
+	font-style: normal;
 }
 .links-footer {
 	color: rgba(255, 255, 255, 0.6);
+}
+.link-footer {
+	color: inherit;
 }
 /* portfolio */
 /* filter portfolio*/
 .btn-filter {
 	background-color: #f5f4fa;
 	color: var(--primary-text-color);
+
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1, 62;
+	cursor: pointer;
 }
 .btn-filter:hover,
 .btn-filter:focus {
@@ -89,7 +165,15 @@ body {
 /* projects portfolio */
 .subtitle-prj {
 	color: var(--primary-text-color);
+
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
 }
 .text-prj {
 	color: var(--secondary-text-color);
+
+	font-size: 16px;
+	line-height: 1, 9px;
 }
