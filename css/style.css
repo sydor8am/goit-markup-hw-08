@@ -73,7 +73,8 @@ li {
 .hero {
 	color: var(--tertiary-text-color);
 	background-color: rgb(39, 39, 39);
-
+}
+.hero > h1 {
 	font-weight: 900;
 	font-size: 44px;
 	line-height: 1, 36;
