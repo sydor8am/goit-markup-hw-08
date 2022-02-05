@@ -40,7 +40,7 @@ li {
 
 	font-weight: 500;
 	font-size: 14px;
-	line-height: 1, 14;
+	line-height: 1.14;
 	letter-spacing: 0.02em;
 }
 .logo {
@@ -49,7 +49,7 @@ li {
 	font-family: Raleway;
 	font-weight: bold;
 	font-size: 26px;
-	line-height: 1, 19;
+	line-height: 1.19;
 }
 .logo-web {
 	color: var(--accent-color);
@@ -77,7 +77,7 @@ li {
 .hero > h1 {
 	font-weight: 900;
 	font-size: 44px;
-	line-height: 1, 36;
+	line-height: 1.36;
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
 }
@@ -88,7 +88,7 @@ li {
 	font-family: inherit;
 	font-weight: bold;
 	font-size: 16px;
-	line-height: 1, 87;
+	line-height: 1.87;
 	letter-spacing: 0.06em;
 
 	cursor: pointer;
@@ -100,23 +100,22 @@ li {
 
 /* advantages */
 .title-adv {
-	font-weight: bold;
 	font-size: 14px;
-	line-height: 1, 14;
+	line-height: 1.14;
 	text-transform: uppercase;
 }
 .text-adv {
 	color: var(--secondary-text-color);
 
 	font-size: 14px;
-	line-height: 1, 71;
+	line-height: 1.71;
 	text-transform: none;
 }
 /* what we do */
 .title-wwd,
 .title-ourteam {
 	font-size: 36px;
-	line-height: 1, 17;
+	line-height: 1.17;
 }
 /* our team */
 .section-ourteam {
@@ -128,16 +127,18 @@ li {
 .subtitle-ourteam {
 	font-weight: 500;
 	font-size: 16px;
-	line-height: 1, 18;
+	line-height: 1.17;
 }
 .text-ourteam {
 	color: var(--secondary-text-color);
+	font-size: 16px;
+	line-height: 1.17;
 }
 /* footer */
 .footer {
 	background-color: var(--secondary-bg-color);
 	font-size: 14px;
-	line-height: 1, 71;
+	line-height: 1.71;
 }
 .logo-footer {
 	color: var(--tertiary-text-color);
@@ -145,7 +146,7 @@ li {
 	font-family: Raleway;
 	font-weight: bold;
 	font-size: 26px;
-	line-height: 1, 19;
+	line-height: 1.19;
 }
 .address {
 	color: var(--tertiary-text-color);
@@ -167,7 +168,7 @@ li {
 	font-family: inherit;
 	font-weight: 500;
 	font-size: 16px;
-	line-height: 1, 62;
+	line-height: 1.62;
 	cursor: pointer;
 }
 .btn-filter:hover,
@@ -180,7 +181,6 @@ li {
 .subtitle-prj {
 	color: var(--primary-text-color);
 
-	font-weight: bold;
 	font-size: 18px;
 	line-height: 2;
 	letter-spacing: 0.06em;
@@ -189,5 +189,5 @@ li {
 	color: var(--secondary-text-color);
 
 	font-size: 16px;
-	line-height: 1, 9px;
+	line-height: 1.9px;
 }
