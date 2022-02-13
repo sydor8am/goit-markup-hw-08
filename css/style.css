@@ -116,7 +116,8 @@ img {
 
 .hero {
 	text-align: center;
-	padding: 200px 452px;
+	padding-top: 200px;
+	padding-bottom: 200px;
 
 	color: var(--tertiary-text-color);
 	background-color: rgb(39, 39, 39);
@@ -223,6 +224,7 @@ img {
 }
 .item-ourteam {
 	text-align: center;
+
 	background-color: var(--tertiary-text-color);
 
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -231,30 +233,30 @@ img {
 .item-ourteam:not(:last-child) {
 	margin-right: var(--card-set-gap);
 }
-.item-ourteam > img {
-	margin-bottom: 30px;
+.description-ourteam {
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 .subtitle-ourteam {
 	margin-bottom: 10px;
+
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.17;
 }
 .text-ourteam {
-	margin-bottom: 30px;
 	color: var(--secondary-text-color);
 	font-size: 16px;
 	line-height: 1.17;
 }
 /* ============== footer ================  */
 .footer {
+	padding-top: 60px;
+	padding-bottom: 60px;
+
 	background-color: var(--secondary-bg-color);
 	font-size: 14px;
 	line-height: 1.71;
-}
-.footer .container {
-	padding-top: 60px;
-	padding-bottom: 60px;
 }
 .logo-footer {
 	color: var(--tertiary-text-color);
@@ -266,6 +268,7 @@ img {
 }
 .address {
 	margin-top: 20px;
+
 	color: var(--tertiary-text-color);
 
 	font-style: normal;
