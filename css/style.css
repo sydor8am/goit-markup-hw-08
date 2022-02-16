@@ -118,9 +118,16 @@ img {
 	text-align: center;
 	padding-top: 200px;
 	padding-bottom: 200px;
+	max-width: 1600px;
+	height: 600px;
+	margin-left: auto;
+	margin-right: auto;
 
+	background-image: url(../images/hero_overlay.png), url(../images/hero.jpg);
+	background-repeat: no-repeat;
+
+	background-color: #c4c4c4;
 	color: var(--tertiary-text-color);
-	background-color: rgb(39, 39, 39);
 }
 .hero .title-hero {
 	margin-bottom: 30px;
@@ -174,6 +181,31 @@ img {
 .list-adv {
 	display: flex;
 }
+.item-adv::before {
+	content: "";
+	display: block;
+	height: 120px;
+	margin-bottom: 30px;
+	background-repeat: no-repeat;
+	background-position: center;
+
+	background-color: #f5f4fa;
+	border-radius: 4px;
+}
+.icon-antenna::before {
+	background-image: url(../images/antenna\ 1.svg);
+}
+.icon-clock::before {
+	background-image: url(../images/clock\ 1.svg);
+}
+.icon-diagram::before {
+	background-image: url(../images/diagram\ 1.svg);
+}
+
+.icon-astronaut::before {
+	background-image: url(../images//astronaut\ 1.svg);
+}
+
 .item-adv:not(:last-child) {
 	margin-right: 30px;
 }
