@@ -89,7 +89,8 @@ img {
 	margin-right: 50px;
 }
 .link-nav {
-	display: block;
+	display: flex;
+	align-items: center;
 	padding-top: 32px;
 	padding-bottom: 32px;
 
@@ -137,7 +138,7 @@ img {
 	margin-left: auto;
 	margin-right: auto;
 
-	background-image: url(../images/hero_overlay.png), url(../images/hero.jpg);
+	background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero.jpg);
 	background-repeat: no-repeat;
 
 	background-color: #c4c4c4;
@@ -196,10 +197,12 @@ img {
 	display: flex;
 }
 .bg-icon-adv {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	width: 270px;
 	height: 120px;
 	margin-bottom: 30px;
-	padding: 25px 100px;
 
 	background-color: #f5f4fa;
 	border-radius: 4px;
@@ -332,8 +335,9 @@ img {
 	margin-right: 30px;
 }
 .bg-icon-regular {
-	display: block;
-	padding: 16px 32px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	width: 170px;
 	height: 92px;
 
