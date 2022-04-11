@@ -490,6 +490,8 @@ img {
 	text-transform: uppercase;
 }
 .footer-subscribe input{
+	width: 358px;
+	height: 50px;
     padding: 15px 16px;
 
 	color: var(--tertiary-text-color);
@@ -503,10 +505,11 @@ img {
 	color: rgba(255, 255, 255, 0.6);
 }
 .footer-subscribe-btn{
-	display: inline-block;
+	display: inline-flex;
 	margin-left: 12px;
 	padding: 10px 28px;
 	min-width: 200px;
+	height: 50px;
 
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
@@ -704,6 +707,8 @@ img {
 	font-size: 16px;
 	line-height: 1.87;
 	letter-spacing: 0.06em;
+
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 	cursor: pointer;
 }
