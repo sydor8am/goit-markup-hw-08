@@ -179,6 +179,7 @@ img {
 	min-width: 200px;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
+	border: none;
 
 	color: var(--tertiary-text-color);
 	background-color: var(--accent-color);
@@ -513,6 +514,7 @@ img {
 
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
+	border: none;
 	
 	color: var(--tertiary-text-color);
 	background-color: var(--accent-color);
@@ -585,8 +587,14 @@ img {
 
 	cursor: pointer;
 }
+.btn-modal-close:hover,
+.btn-modal-close:focus {
+	color: var(--accent-color);
+
+	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .icon-modal {
-	fill: #000000;
+	fill: currentColor;
 }
 .title-form{
 	margin-bottom: 12px;
@@ -602,6 +610,7 @@ img {
 	display: block;
 }
 .contact-form-field{
+	display: block;
 	font-size: 12px;
 	line-height: 1.16;
 	letter-spacing: 0.01em;
@@ -667,7 +676,9 @@ img {
 .contact-form-checkbox-label{
 	display: flex;
 	align-items: center;
+	margin-top: 20px;
 	margin-bottom: 30px;
+	margin-left: 12px;
 
 	font-size: 14px;
 	line-height: 1.71;
@@ -691,6 +702,10 @@ img {
 	background-image: url(../images/icon_check.svg);
 	border: none;
 }
+.contact-form-link{
+	text-decoration: underline;
+	color: var(--accent-color);
+}
 .contact-form-btn {
 	display: block;
 	margin: 0 auto;
@@ -698,6 +713,7 @@ img {
 	min-width: 200px;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
+	border: none;
 
 	color: var(--tertiary-text-color);
 	background-color: var(--accent-color);

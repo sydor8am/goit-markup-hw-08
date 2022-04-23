@@ -443,13 +443,8 @@
 
                     <label class="contact-form-field">
                         Комментарий
-                        <textarea 
-                        name="user_message" 
-                        class="contact-form-message" 
-                        placeholder="Введите текст">
-                        </textarea>
+                        <textarea name="user_message" class="contact-form-message" placeholder="Введите текст"></textarea>
                     </label>
-
                     <div class="contact-form-checkbox-wrapper">
                         <input 
                         name="accept_policy" 
@@ -458,7 +453,8 @@
                         id="policy-checkbox" 
                         required>
                         <label for="policy-checkbox" class="contact-form-checkbox-label">
-                            Соглашаюсь с рассылкой и принимаю&nbsp;<a href="">Условия договора</a>                        
+                            Соглашаюсь с рассылкой и принимаю&nbsp;<a class="contact-form-link" href="">Условия договора</a>
+                        </label>                        
                     </div>
                     <button type="submit" class="contact-form-btn">Отправить</button>
                 </form>
