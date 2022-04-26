@@ -1,0 +1,33 @@
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+*::after::before {
+    box-sizing: border-box;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
