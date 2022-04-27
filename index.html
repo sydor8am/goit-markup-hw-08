@@ -16,26 +16,26 @@
 <body>
     <header class="page-header">
         <div class="container">
-            <nav class="main-nav">
+            <nav class="nav">
                 <a class="logo" href="./index.html">Web<span class="logo_black">Studio</span></a>
-                <ul class="list-nav">
-                    <li class="item item-nav-current"><a class="link-nav current" href="">Студия</a></li>
-                    <li class="item"><a class="link-nav" href="./portfolio.html">Портфолио</a></li>
-                    <li class="item"><a class="link-nav" href="">Контакты</a></li>
+                <ul class="nav__list">
+                    <li class="nav__item item-current"><a class="nav__link current" href="">Студия</a></li>
+                    <li class="nav__item"><a class="nav__link" href="./portfolio.html">Портфолио</a></li>
+                    <li class="nav__item"><a class="nav__link" href="">Контакты</a></li>
                 </ul>
             </nav>
             <ul class="cont-nav">
-                <li class="item">
-                    <a class="link-nav" href="mailto:info@devstudio.com">
-                        <svg class="icon-mail" width="16" height="12">
+                <li class="cont-nav__item">
+                    <a class="cont-nav__link" href="mailto:info@devstudio.com">
+                        <svg class="cont-nav__icon" width="16" height="12">
                             <use href="./images/icons.svg#icon-envelope"></use>
                         </svg>
                         info@devstudio.com
                     </a>
                 </li>                
-                <li class="item">
-                    <a class="link-nav" href="tel:+380961111111">
-                        <svg class="icon-tel" width="10" height="16">
+                <li class="cont-nav__item">
+                    <a class="cont-nav__link" href="tel:+380961111111">
+                        <svg class="cont-nav__icon" width="10" height="16">
                             <use href="./images/icons.svg#icon-smartphone"></use>
                         </svg>
                         +38 096 111 11 11
@@ -44,79 +44,78 @@
             </ul>
         </div>
     </header>
-    <div class="container"></div>
     <main>
         <!-- section hero -->
         <section class="hero">
             <div class="container">
-                <h1 class="title-hero">Эффективные решения<br>для вашего бизнеса</h1>
+                <h1 class="hero__title">Эффективные решения<br>для вашего бизнеса</h1>
                 <button class="btn" type="button" data-modal-open>Заказать услугу</button>
             </div>
         </section>
         <!-- section advantages -->
-        <section class="section">
+        <section class="section advantages">
             <div class="container">
                 <h2 class="visually-hidden">Преимущества</h2>
-                <ul class="list-adv">
-                    <li class="item-adv">
-                        <div class="bg-icon-adv">
-                            <svg class="icon-adv" width="70" height="70">
+                <ul class="advantages__list">
+                    <li class="advantages__item">
+                        <div class="advantages__background">
+                            <svg width="70" height="70">
                                 <use href="./images/icons.svg#icon-antenna-1"></use>
                             </svg>
                         </div>
-                        <h3 class="title-adv">Внимание к деталям</h3>
-                        <p class="text-adv">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                        <h3 class="advantages__title">Внимание к деталям</h3>
+                        <p class="advantages__text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                     </li>
-                    <li class="item-adv">
-                        <div class="bg-icon-adv">
-                            <svg class="icon-adv" width="70" height="70">
+                    <li class="advantages__item">
+                        <div class="advantages__background">
+                            <svg width="70" height="70">
                                 <use href="./images/icons.svg#icon-clock-1"></use>
                             </svg>
                         </div>
-                        <h3 class="title-adv">Пунктуальность</h3>
-                        <p class="text-adv">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                        <h3 class="advantages__title">Пунктуальность</h3>
+                        <p class="advantages__text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                     </li>
-                    <li class="item-adv">
-                        <div class="bg-icon-adv">
-                            <svg class="icon-adv" width="70" height="70">
+                    <li class="advantages__item">
+                        <div class="advantages__background">
+                            <svg width="70" height="70">
                                 <use href="./images/icons.svg#icon-diagram-1"></use>
                             </svg>
                         </div>
-                        <h3 class="title-adv">Планирование</h3>
-                        <p class="text-adv">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                        <h3 class="advantages__title">Планирование</h3>
+                        <p class="advantages__text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                     </li>
-                    <li class="item-adv">
-                        <div class="bg-icon-adv">
-                            <svg class="icon-adv" width="70" height="70">
+                    <li class="advantages__item">
+                        <div class="advantages__background">
+                            <svg width="70" height="70">
                                 <use href="./images/icons.svg#icon-astronaut-1"></use>
                             </svg>
                         </div>
-                        <h3 class="title-adv">Современные технологии</h3>
-                        <p class="text-adv">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                        <h3 class="advantages__title">Современные технологии</h3>
+                        <p class="advantages__text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                     </li>
                 </ul>
             </div>
         </section>
         <!-- section what we do -->
-        <section class="section section-wwd">
+        <section class="section wwd">
             <div class="container">
-                <h2 class="title-wwd">Чем мы занимаемся</h2>
-                <ul class="list-wwd">
-                    <li class="item-wwd">
+                <h2 class="wwd__title">Чем мы занимаемся</h2>
+                <ul class="wwd__list">
+                    <li class="wwd__item">
                         <img src="./images/wwd1.jpg" alt="Печатает на клавиатуре" width="370" height="294">
-                        <div class="text-wwd">
+                        <div class="wwd__subtitle">
                             <h3>Десктопные приложения</h3>
                         </div>
                     </li>
-                    <li class="item-wwd">
+                    <li class="wwd__item">
                         <img src="./images/wwd2.jpg" alt="Телефон в руке" width="370" height="294">
-                        <div class="text-wwd">
+                        <div class="wwd__subtitle">
                             <h3>Мобильные приложения</h3>
                         </div>
                     </li>
-                    <li class="item-wwd">
+                    <li class="wwd__item">
                         <img src="./images/wwd3.jpg" alt="Планшет в руке" width="370" height="294">
-                        <div class="text-wwd">
+                        <div class="wwd__subtitle">
                             <h3>Дизайнерские решения</h3>
                         </div>
                     </li>
