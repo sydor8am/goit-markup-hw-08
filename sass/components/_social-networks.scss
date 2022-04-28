@@ -11,12 +11,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
     width: 44px;
     height: 44px;
-
+    border-radius: 50%;    
+}
+.social-networks__link_transperent{
     color: #afb1b8;
     background-color: transparent;
-    border-radius: 50%;
+}
+.social-networks__link_background {
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 .social-networks__link:hover,
@@ -26,12 +31,13 @@
 
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.social-networks__icon {
+.social-networks__icon_grey {
     fill: currentColor;
 }
-
-.social-networks__icon:hover,
-.social-networks__icon:focus {
+.social-networks__icon_grey:hover,
+.social-networks__icon_grey:focus {
     fill: currentColor;
+}
+.social-networks__icon_white {
+    fill: var(--tertiary-text-color);
 }
