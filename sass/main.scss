@@ -7,6 +7,9 @@
 @import './components/logo';
 @import './components/button';
 @import './components/social-networks';
+@import './components/backdrop';
+@import './components/modal-window';
+@import './components/modal-form';
 
 @import './layout/page-header';
 @import './layout/hero';
@@ -16,4 +19,4 @@
 @import './layout/regular';
 @import './layout/footer';
 @import './layout/portfolio-filter';
-@import './layout/portfolio';
+@import './layout/portfolio-gallery';
