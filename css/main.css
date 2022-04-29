@@ -273,18 +273,17 @@ img {
   border-color: var(--accent-color);
 }
 
-.contact-form__input:focus + .contact-form__icon,
-.contact-form__input:focus + .contact-form__icon, .contact-form__input:hover + .contact-form__icon,
-.contact-form__input:hover + .contact-form__icon {
-  fill: var(--accent-color);
-}
-
 .contact-form__icon {
   position: absolute;
   top: 50%;
   left: 15px;
   transform: translateY(-50%);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contact-form__input:focus + .contact-form__icon,
+.contact-form__input:hover + .contact-form__icon {
+  fill: var(--accent-color);
 }
 
 .contact-form__message {
@@ -652,7 +651,7 @@ img {
   text-transform: uppercase;
 }
 
-.footer-join > p {
+.footer-join__text {
   margin-bottom: 20px;
 }
 
@@ -661,7 +660,7 @@ img {
   padding-top: 8px;
 }
 
-.footer-subscribe p {
+.footer-subscribe__text {
   display: block;
   margin-bottom: 20px;
   color: var(--tertiary-text-color);
@@ -671,7 +670,7 @@ img {
   text-transform: uppercase;
 }
 
-.footer-subscribe input {
+.footer-subscribe__input {
   width: 358px;
   height: 50px;
   padding: 15px 16px;
@@ -682,7 +681,7 @@ img {
   background: none;
 }
 
-.footer-subscribe input::placeholder {
+.footer-subscribe__input::placeholder {
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -735,16 +734,6 @@ img {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.project__item:hover .project__card-image::before {
-  transform: translateY(0%);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.project__item:hover .project__description {
-  transform: translateY(0%);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .project__card-image {
   position: relative;
   display: flex;
@@ -766,6 +755,11 @@ img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.project__item:hover .project__card-image::before {
+  transform: translateY(0%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .project__description {
   position: absolute;
   top: 0;
@@ -780,6 +774,11 @@ img {
   line-height: 1.56;
   color: #ffffff;
   transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.project__item:hover .project__description {
+  transform: translateY(0%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
