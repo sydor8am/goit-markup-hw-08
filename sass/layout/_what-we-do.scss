@@ -16,10 +16,10 @@
 
 .wwd__item {
     position: relative;
-}
 
-.wwd__item:not(:last-child) {
-    margin-right: var(--card-set-gap);
+    &:not(:last-child) {
+        margin-right: var(--card-set-gap);
+    }
 }
 
 .wwd__subtitle {

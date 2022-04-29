@@ -19,11 +19,13 @@
     letter-spacing: 0.06em;
 
     cursor: pointer;
+
+    &:hover,
+    &:active {
+        background-color: var(--btn-hero-accent-color);
+    }
 }
-.btn:hover,
-.btn:active {
-    background-color: var(--btn-hero-accent-color);
-}
+
 .footer-subscribe__btn {
     margin-left: 12px;
     padding: 10px 28px;
