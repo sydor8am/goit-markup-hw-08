@@ -60,12 +60,19 @@ img {
 }
 
 .section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+@media screen and (min-width: 1200px) {
+  .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .container {
-  width: 450px;
+  width: 480px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -580,7 +587,7 @@ img {
   text-align: center;
   padding-top: 118px;
   padding-bottom: 118px;
-  min-width: 480px;
+  max-width: 480px;
   height: 400px;
   margin-left: auto;
   margin-right: auto;
@@ -606,12 +613,15 @@ img {
 
 @media screen and (min-width: 768px) {
   .hero__container {
+    max-width: 768px;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-tablet.jpg);
   }
 }
 
 @media screen and (min-width: 1200px) {
   .hero__container {
+    max-width: 1600px;
+    height: 600px;
     padding-top: 200px;
     padding-bottom: 200px;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero.jpg);
@@ -622,19 +632,11 @@ img {
   }
 }
 
-.advantages__list {
-  display: flex;
-}
-
-.advantages__item:not(:last-child) {
-  margin-right: 30px;
-}
-
 .advantages__background {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 270px;
+  width: auto;
   height: 120px;
   margin-bottom: 30px;
   background-color: #f5f4fa;
@@ -643,6 +645,7 @@ img {
 
 .advantages__title {
   margin-bottom: 10px;
+  text-align: center;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
@@ -653,6 +656,37 @@ img {
   font-size: 14px;
   line-height: 1.71;
   text-transform: none;
+}
+
+@media screen and (min-width: 480px) {
+  .advantages__item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .advantages__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .advantages__item {
+    width: 354px;
+  }
+  .advantages__item:nth-child(2n + 1) {
+    margin-right: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .advantages__list {
+    flex-wrap: nowrap;
+  }
+  .advantages__item {
+    width: 270px;
+  }
+  .advantages__item:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .wwd {
