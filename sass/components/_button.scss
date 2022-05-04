@@ -1,5 +1,5 @@
 .btn {
-    display: inline-flex;
+    display: flex;
     align-items: center;
     justify-content: center;
 
@@ -27,7 +27,6 @@
 }
 
 .footer-subscribe__btn {
-    margin-left: 12px;
     padding: 10px 28px;
 }
 .btn__icon {
