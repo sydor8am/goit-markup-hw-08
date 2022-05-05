@@ -147,19 +147,34 @@
                 <h2 class="wwd__title">Чем мы занимаемся</h2>
                 <ul class="wwd__list">
                     <li class="wwd__item">
-                        <img src="./images/wwd1.jpg" alt="Печатает на клавиатуре" width="370" height="294">
+                        <img
+                        srcset="./images/wwd1.jpg 1x, ./images/wwd1@2x.jpg 2x" 
+                        src="./images/wwd1.jpg" 
+                        alt="Печатает на клавиатуре" 
+                        width="370" 
+                        height="294">
                         <div class="wwd__subtitle">
                             <h3>Десктопные приложения</h3>
                         </div>
                     </li>
                     <li class="wwd__item">
-                        <img src="./images/wwd2.jpg" alt="Телефон в руке" width="370" height="294">
+                        <img
+                        srcset="./images/wwd2.jpg 1x, ./images/wwd2@2x.jpg 2x" 
+                        src="./images/wwd2.jpg" 
+                        alt="Телефон в руке" 
+                        width="370" 
+                        height="294">
                         <div class="wwd__subtitle">
                             <h3>Мобильные приложения</h3>
                         </div>
                     </li>
                     <li class="wwd__item">
-                        <img src="./images/wwd3.jpg" alt="Планшет в руке" width="370" height="294">
+                        <img
+                        srcset="./images/wwd3.jpg 1x, ./images/wwd3@2x.jpg 2x" 
+                        src="./images/wwd3.jpg" 
+                        alt="Планшет в руке" 
+                        width="370" 
+                        height="294">
                         <div class="wwd__subtitle">
                             <h3>Дизайнерские решения</h3>
                         </div>
@@ -173,7 +188,25 @@
                 <h2 class="ourteam__title">Наша команда</h2>
                 <ul class="ourteam__list">
                     <li class="ourteam__item">
-                        <img src="./images/ot1.jpg" alt="Мужична в очках" width="270" height="260">
+                        <picture>
+                            <source 
+                            srcset=""
+                            media="(min-width: 1200px)" 
+                            />
+                            <source 
+                            srcset="" 
+                            media="(min-width: 768px)" 
+                            />
+                            <source 
+                            srcset="" 
+                            media="(max-width: 767px)" 
+                            />
+                            <img 
+                            src="./images/ot1.jpg" 
+                            alt="Мужична в очках" 
+                            width="270" 
+                            height="260">
+                        </picture>
                         <div class="ourteam__description">
                             <h3 class="ourteam__subtitle">Игорь Демьяненко</h3>
                             <p class="ourteam__text">Product Designer</p>
