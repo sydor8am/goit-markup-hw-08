@@ -1,13 +1,6 @@
-.project {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: calc(-1 * var(--card-set-gap));
-    margin-top: calc(-1 * var(--card-set-gap));
-}
-
 .project__item {
     
-    margin-left: var(--card-set-gap);
+    flex-basis: calc(100% - var(--card-set-gap));
     margin-top: var(--card-set-gap);
 
     &:hover,
@@ -76,7 +69,7 @@
     }
 }
 
-.project__card-text {
+.project__card-text {   
     padding: 20px 24px;
     border: 1px solid #eeeeee;
 }
@@ -98,11 +91,16 @@
     line-height: 1.9;
 }
 
-@media screen and(min-width:480px) {}
-
 @media screen and(min-width:768px) {
+    .project{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: calc(-1 * var(--card-set-gap));
+        margin-top: calc(-1 * var(--card-set-gap));
+    }
     .project__item {
         flex-basis: calc(100% / 2 - var(--card-set-gap));
+        margin-left: var(--card-set-gap);
     }
 }
 
