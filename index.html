@@ -147,34 +147,37 @@
                 <h2 class="wwd__title">Чем мы занимаемся</h2>
                 <ul class="wwd__list">
                     <li class="wwd__item">
-                        <img
-                        srcset="./images/wwd1.jpg 1x, ./images/wwd1@2x.jpg 2x" 
-                        src="./images/wwd1.jpg" 
-                        alt="Печатает на клавиатуре" 
-                        width="370" 
-                        height="294">
+                        <picture>
+                            <source srcset="./images/wwd1.webp 1x, ./images/wwd1@2x.webp 2x" media="(min-width: 1200px)" type="image/webp" />
+                            <source srcset="./images/wwd1.jpg 1x, ./images/wwd1@2x.jpg 2x" media="(min-width: 1200px)" />
+                        
+                            <img srcset="./images/wwd1.jpg 1x, ./images/wwd1@2x.jpg 2x" src="./images/wwd1.jpg" alt="Печатает на клавиатуре"
+                                width="370" height="294">
+                        </picture>
                         <div class="wwd__subtitle">
                             <h3>Десктопные приложения</h3>
                         </div>
                     </li>
                     <li class="wwd__item">
-                        <img
-                        srcset="./images/wwd2.jpg 1x, ./images/wwd2@2x.jpg 2x" 
-                        src="./images/wwd2.jpg" 
-                        alt="Телефон в руке" 
-                        width="370" 
-                        height="294">
+                        <picture>
+                            <source srcset="./images/wwd2.webp 1x, ./images/wwd2@2x.webp 2x" media="(min-width: 1200px)" type="image/webp" />
+                            <source srcset="./images/wwd2.jpg 1x, ./images/wwd2@2x.jpg 2x" media="(min-width: 1200px)" />
+                        
+                            <img srcset="./images/wwd2.jpg 1x, ./images/wwd2@2x.jpg 2x" src="./images/wwd2.jpg" alt="Телефон в руке" width="370"
+                                height="294">
+                        </picture>
                         <div class="wwd__subtitle">
                             <h3>Мобильные приложения</h3>
                         </div>
                     </li>
                     <li class="wwd__item">
-                        <img
-                        srcset="./images/wwd3.jpg 1x, ./images/wwd3@2x.jpg 2x" 
-                        src="./images/wwd3.jpg" 
-                        alt="Планшет в руке" 
-                        width="370" 
-                        height="294">
+                        <picture>
+                            <source srcset="./images/wwd3.webp 1x, ./images/wwd3@2x.webp 2x" media="(min-width: 1200px)" type="image/webp" />
+                            <source srcset="./images/wwd3.jpg 1x, ./images/wwd3@2x.jpg 2x" media="(min-width: 1200px)" />
+                        
+                            <img srcset="./images/wwd3.jpg 1x, ./images/wwd3@2x.jpg 2x" src="./images/wwd3.jpg" alt="Планшет в руке" width="370"
+                                height="294">
+                        </picture>
                         <div class="wwd__subtitle">
                             <h3>Дизайнерские решения</h3>
                         </div>
@@ -190,22 +193,35 @@
                     <li class="ourteam__item">
                         <picture>
                             <source 
-                            srcset=""
-                            media="(min-width: 1200px)" 
+                                srcset="./images/ot1.webp 1x, ./images/ot1@2x.webp 2x" 
+                                media="(min-width: 1200px)"
+                                type="image/webp" 
                             />
                             <source 
-                            srcset="" 
-                            media="(min-width: 768px)" 
+                                srcset="./images/ot1.jpg 1x, ./images/ot1@2x.jpg 2x"
+                                media="(min-width: 1200px)" 
+                            />
+
+                            <source 
+                                srcset="./images/ot1-tablet.webp 1x, ./images/ot1-tablet@2x.webp 2x" 
+                                media="(min-width: 768px)"
+                                type="image/webp" 
                             />
                             <source 
-                            srcset="" 
-                            media="(max-width: 767px)" 
+                                srcset="./images/ot1-tablet.jpg 1x, ./images/ot1-tablet@2x.jpg 2x" 
+                                media="(min-width: 768px)" 
                             />
-                            <img 
-                            src="./images/ot1.jpg" 
-                            alt="Мужична в очках" 
-                            width="270" 
-                            height="260">
+
+                            <source 
+                                srcset="./images/ot1-mobile.webp 1x, ./images/ot1-mobile@2x.webp 2x" 
+                                media="(max-width: 767px)"
+                                type="image/webp" 
+                            />
+                            <source 
+                                srcset="./images/ot1-mobile.jpg 1x, ./images/ot1-mobile@2x.jpg 2x" 
+                                media="(max-width: 767px)" 
+                            />
+                            <img src="./images/ot1-mobile.jpg" alt="Мужчина в очках" width="" height="">
                         </picture>
                         <div class="ourteam__description">
                             <h3 class="ourteam__subtitle">Игорь Демьяненко</h3>
@@ -245,7 +261,37 @@
                         </div>
                     </li>
                     <li class="ourteam__item">
-                        <img src="./images/ot2.jpg" alt="Женщина в черном пиджаке" width="270" height="260">
+                        <picture>
+                            <source 
+                                srcset="./images/ot2.webp 1x, ./images/ot2@2x.webp 2x" 
+                                media="(min-width: 1200px)" 
+                                type="image/webp" />
+                            <source 
+                                srcset="./images/ot2.jpg 1x, ./images/ot2@2x.jpg 2x" 
+                                media="(min-width: 1200px)" 
+                            />
+                        
+                            <source 
+                                srcset="./images/ot2-tablet.webp 1x, ./images/ot2-tablet@2x.webp 2x" 
+                                media="(min-width: 768px)"
+                                type="image/webp" 
+                            />
+                            <source 
+                                srcset="./images/ot2-tablet.jpg 1x, ./images/ot2-tablet@2x.jpg 2x"
+                                media="(min-width: 768px)" 
+                            />
+                        
+                            <source 
+                                srcset="./images/ot2-mobile.webp 1x, ./images/ot2-mobile@2x.webp 2x" 
+                                media="(max-width: 767px)"
+                                type="image/webp" 
+                            />
+                            <source 
+                                srcset="./images/ot2-mobile.jpg 1x, ./images/ot2-mobile@2x.jpg 2x" 
+                                media="(max-width: 767px)" 
+                            />
+                            <img src="./images/ot2-mobile.jpg" alt="Женщина в черном пиджаке" width="" height="">
+                        </picture>
                         <div class="ourteam__description">
                             <h3 class="ourteam__subtitle">Ольга Репина</h3>
                             <p class="ourteam__text">Frontend Developer</p>
@@ -284,7 +330,38 @@
                         </div>                        
                     </li>
                     <li class="ourteam__item">
-                        <img src="./images/ot3.jpg" alt="Мужична в голубой рубашке" width="270" height="260">
+                        <picture>
+                            <source 
+                                srcset="./images/ot3.webp 1x, ./images/ot3@2x.webp 2x" 
+                                media="(min-width: 1200px)" 
+                                type="image/webp" 
+                            />
+                            <source 
+                                srcset="./images/ot3.jpg 1x, ./images/ot3@2x.jpg 2x" 
+                                media="(min-width: 1200px)" 
+                            />
+                        
+                            <source 
+                                srcset="./images/ot3-tablet.webp 1x, ./images/ot3-tablet@2x.webp 2x" 
+                                media="(min-width: 768px)"
+                                type="image/webp" 
+                            />
+                            <source 
+                                srcset="./images/ot3-tablet.jpg 1x, ./images/ot3-tablet@2x.jpg 2x" 
+                                media="(min-width: 768px)" 
+                            />
+                        
+                            <source 
+                                srcset="./images/ot3-mobile.webp 1x, ./images/ot3-mobile@2x.webp 2x" 
+                                media="(max-width: 767px)"
+                                type="image/webp" 
+                            />
+                            <source 
+                                srcset="./images/ot3-mobile.jpg 1x, ./images/ot3-mobile@2x.jpg 2x" 
+                                media="(max-width: 767px)" 
+                            />
+                            <img src="./images/ot3.jpg" alt="Мужична в голубой рубашке" width="" height="">
+                        </picture>
                         <div class="ourteam__description">
                             <h3 class="ourteam__subtitle">Николай Тарасов</h3>
                             <p class="ourteam__text">Marketing</p>
@@ -323,7 +400,38 @@
                         </div>                       
                     </li>
                     <li class="ourteam__item">
-                        <img src="./images/ot4.jpg" alt="Мужична в очках и черной футболке" width="270" height="260">
+                        <picture>
+                            <source 
+                                srcset="./images/ot4.webp 1x, ./images/ot4@2x.webp 2x" 
+                                media="(min-width: 1200px)" 
+                                type="image/webp" 
+                            />
+                            <source 
+                                srcset="./images/ot4.jpg 1x, ./images/ot4@2x.jpg 2x" 
+                                media="(min-width: 1200px)" 
+                            />
+                        
+                            <source 
+                                srcset="./images/ot4-tablet.webp 1x, ./images/ot4-tablet@2x.webp 2x" 
+                                media="(min-width: 768px)"
+                                type="image/webp" 
+                            />
+                            <source 
+                                srcset="./images/ot4-tablet.jpg 1x, ./images/ot4-tablet@2x.jpg 2x" 
+                                media="(min-width: 768px)" 
+                            />
+                        
+                            <source 
+                                srcset="./images/ot4-mobile.webp 1x, ./images/ot4-mobile@2x.webp 2x" 
+                                media="(max-width: 767px)"
+                                type="image/webp" 
+                            />
+                            <source 
+                                srcset="./images/ot4-mobile.jpg 1x, ./images/ot4-mobile@2x.jpg 2x" 
+                                media="(max-width: 767px)" 
+                            />
+                            <img src="./images/ot4.jpg" alt="Мужична в очках и черной футболке" width="" height="">
+                        </picture>
                         <div class="ourteam__description">
                             <h3 class="ourteam__subtitle">Михаил Ермаков</h3>
                             <p class="ourteam__text">UI Designer</p>
