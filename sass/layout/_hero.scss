@@ -49,7 +49,9 @@
                     url(../../images/hero-mobile@2x.jpg);
             }
         }
-    
+        .hero__container{
+            min-width: 480px;
+        }
 }
 @media screen and(min-width:768px) {
     .hero {
@@ -68,6 +70,9 @@
                         rgba(47, 48, 58, 0.4)),
                     url(../../images/hero-tablet@2x.jpg);
             }
+        }
+        .hero__container {
+            min-width: 768px;
         }
 }
 
