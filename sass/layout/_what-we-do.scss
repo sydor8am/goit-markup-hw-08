@@ -46,5 +46,8 @@
     
         color: var(--tertiary-text-color);
         background-color: rgba(47, 48, 58, 0.8);
+        & > h3 {
+            font-size: inherit;
+        }
     }
 }
