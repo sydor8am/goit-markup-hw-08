@@ -605,6 +605,7 @@ img {
 .hero {
   margin-left: auto;
   margin-right: auto;
+  background-size: cover;
   background-repeat: no-repeat;
   background-color: #c4c4c4;
   color: var(--tertiary-text-color);
